@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171FB49920BF866B00A76410 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171FB49020BF865B00A76410 /* Alamofire.framework */; };
+		1735BDA920BDD620001DAE72 /* mainHubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735BDA820BDD620001DAE72 /* mainHubVC.swift */; };
+		1735BDAB20BDD9E5001DAE72 /* NFLVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735BDAA20BDD9E5001DAE72 /* NFLVC.swift */; };
+		1735BDAD20BDD9F6001DAE72 /* NBAVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735BDAC20BDD9F6001DAE72 /* NBAVC.swift */; };
+		1735BDAF20BDDA02001DAE72 /* MLBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735BDAE20BDDA02001DAE72 /* MLBVC.swift */; };
+		1735BDB120BDF6E1001DAE72 /* sportsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735BDB020BDF6E1001DAE72 /* sportsCell.swift */; };
+		1735BDB320BDFBB7001DAE72 /* SHModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735BDB220BDFBB7001DAE72 /* SHModel.swift */; };
+		1735BDB520BE17B6001DAE72 /* showCommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735BDB420BE17B6001DAE72 /* showCommentVC.swift */; };
+		1735BDB720BE1955001DAE72 /* commentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1735BDB620BE1955001DAE72 /* commentCell.swift */; };
+		1771E62E20BF6DF20058D0C6 /* registerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771E62D20BF6DF20058D0C6 /* registerVC.swift */; };
 		1792E36620B4B10C0061D620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792E36520B4B10C0061D620 /* AppDelegate.swift */; };
-		1792E36820B4B10C0061D620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792E36720B4B10C0061D620 /* ViewController.swift */; };
+		1792E36820B4B10C0061D620 /* logInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792E36720B4B10C0061D620 /* logInVC.swift */; };
 		1792E36B20B4B10C0061D620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1792E36920B4B10C0061D620 /* Main.storyboard */; };
 		1792E36E20B4B10C0061D620 /* SportHuBMobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1792E36C20B4B10C0061D620 /* SportHuBMobile.xcdatamodeld */; };
 		1792E37020B4B10E0061D620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1792E36F20B4B10E0061D620 /* Assets.xcassets */; };
@@ -18,6 +28,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		171FB48B20BF865B00A76410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171FB48020BF865B00A76410 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		171FB48D20BF865B00A76410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171FB48020BF865B00A76410 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		171FB48F20BF865B00A76410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171FB48020BF865B00A76410 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		171FB49120BF865B00A76410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171FB48020BF865B00A76410 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		171FB49320BF865B00A76410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171FB48020BF865B00A76410 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		171FB49520BF865B00A76410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171FB48020BF865B00A76410 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		171FB49720BF865B00A76410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171FB48020BF865B00A76410 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
 		1792E37A20B4B10E0061D620 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1792E35A20B4B10C0061D620 /* Project object */;
@@ -35,9 +94,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		171FB47E20BF85FE00A76410 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Alamofire; sourceTree = "<group>"; };
+		171FB48020BF865B00A76410 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		1735BDA820BDD620001DAE72 /* mainHubVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainHubVC.swift; sourceTree = "<group>"; };
+		1735BDAA20BDD9E5001DAE72 /* NFLVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLVC.swift; sourceTree = "<group>"; };
+		1735BDAC20BDD9F6001DAE72 /* NBAVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBAVC.swift; sourceTree = "<group>"; };
+		1735BDAE20BDDA02001DAE72 /* MLBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLBVC.swift; sourceTree = "<group>"; };
+		1735BDB020BDF6E1001DAE72 /* sportsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sportsCell.swift; sourceTree = "<group>"; };
+		1735BDB220BDFBB7001DAE72 /* SHModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHModel.swift; sourceTree = "<group>"; };
+		1735BDB420BE17B6001DAE72 /* showCommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showCommentVC.swift; sourceTree = "<group>"; };
+		1735BDB620BE1955001DAE72 /* commentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentCell.swift; sourceTree = "<group>"; };
+		1771E62D20BF6DF20058D0C6 /* registerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerVC.swift; sourceTree = "<group>"; };
 		1792E36220B4B10C0061D620 /* SportHuBMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportHuBMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1792E36520B4B10C0061D620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1792E36720B4B10C0061D620 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1792E36720B4B10C0061D620 /* logInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInVC.swift; sourceTree = "<group>"; };
 		1792E36A20B4B10C0061D620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1792E36D20B4B10C0061D620 /* SportHuBMobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportHuBMobile.xcdatamodel; sourceTree = "<group>"; };
 		1792E36F20B4B10E0061D620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171FB49920BF866B00A76410 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +147,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171FB47D20BF85FE00A76410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				171FB48020BF865B00A76410 /* Alamofire.xcodeproj */,
+				171FB47E20BF85FE00A76410 /* Alamofire */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		171FB48120BF865B00A76410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				171FB48C20BF865B00A76410 /* Alamofire.framework */,
+				171FB48E20BF865B00A76410 /* Alamofire iOS Tests.xctest */,
+				171FB49020BF865B00A76410 /* Alamofire.framework */,
+				171FB49220BF865B00A76410 /* Alamofire macOS Tests.xctest */,
+				171FB49420BF865B00A76410 /* Alamofire.framework */,
+				171FB49620BF865B00A76410 /* Alamofire tvOS Tests.xctest */,
+				171FB49820BF865B00A76410 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1792E35920B4B10C0061D620 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +177,7 @@
 				1792E37C20B4B10E0061D620 /* SportHuBMobileTests */,
 				1792E38720B4B10E0061D620 /* SportHuBMobileUITests */,
 				1792E36320B4B10C0061D620 /* Products */,
+				171FB47D20BF85FE00A76410 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +195,17 @@
 			isa = PBXGroup;
 			children = (
 				1792E36520B4B10C0061D620 /* AppDelegate.swift */,
-				1792E36720B4B10C0061D620 /* ViewController.swift */,
+				1792E36720B4B10C0061D620 /* logInVC.swift */,
+				1735BDA820BDD620001DAE72 /* mainHubVC.swift */,
 				1792E36920B4B10C0061D620 /* Main.storyboard */,
+				1771E62D20BF6DF20058D0C6 /* registerVC.swift */,
+				1735BDB620BE1955001DAE72 /* commentCell.swift */,
+				1735BDB420BE17B6001DAE72 /* showCommentVC.swift */,
+				1735BDB020BDF6E1001DAE72 /* sportsCell.swift */,
+				1735BDAA20BDD9E5001DAE72 /* NFLVC.swift */,
+				1735BDAC20BDD9F6001DAE72 /* NBAVC.swift */,
+				1735BDAE20BDDA02001DAE72 /* MLBVC.swift */,
+				1735BDB220BDFBB7001DAE72 /* SHModel.swift */,
 				1792E36F20B4B10E0061D620 /* Assets.xcassets */,
 				1792E37120B4B10E0061D620 /* LaunchScreen.storyboard */,
 				1792E37420B4B10E0061D620 /* Info.plist */,
@@ -218,6 +322,12 @@
 			mainGroup = 1792E35920B4B10C0061D620;
 			productRefGroup = 1792E36320B4B10C0061D620 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 171FB48120BF865B00A76410 /* Products */;
+					ProjectRef = 171FB48020BF865B00A76410 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1792E36120B4B10C0061D620 /* SportHuBMobile */,
@@ -226,6 +336,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		171FB48C20BF865B00A76410 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 171FB48B20BF865B00A76410 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		171FB48E20BF865B00A76410 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 171FB48D20BF865B00A76410 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		171FB49020BF865B00A76410 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 171FB48F20BF865B00A76410 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		171FB49220BF865B00A76410 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 171FB49120BF865B00A76410 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		171FB49420BF865B00A76410 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 171FB49320BF865B00A76410 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		171FB49620BF865B00A76410 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 171FB49520BF865B00A76410 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		171FB49820BF865B00A76410 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 171FB49720BF865B00A76410 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1792E36020B4B10C0061D620 /* Resources */ = {
@@ -260,8 +422,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1792E36E20B4B10C0061D620 /* SportHuBMobile.xcdatamodeld in Sources */,
-				1792E36820B4B10C0061D620 /* ViewController.swift in Sources */,
+				1771E62E20BF6DF20058D0C6 /* registerVC.swift in Sources */,
+				1792E36820B4B10C0061D620 /* logInVC.swift in Sources */,
+				1735BDB720BE1955001DAE72 /* commentCell.swift in Sources */,
 				1792E36620B4B10C0061D620 /* AppDelegate.swift in Sources */,
+				1735BDB520BE17B6001DAE72 /* showCommentVC.swift in Sources */,
+				1735BDA920BDD620001DAE72 /* mainHubVC.swift in Sources */,
+				1735BDAF20BDDA02001DAE72 /* MLBVC.swift in Sources */,
+				1735BDAD20BDD9F6001DAE72 /* NBAVC.swift in Sources */,
+				1735BDB120BDF6E1001DAE72 /* sportsCell.swift in Sources */,
+				1735BDB320BDFBB7001DAE72 /* SHModel.swift in Sources */,
+				1735BDAB20BDD9E5001DAE72 /* NFLVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
